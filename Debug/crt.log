@@ -1,0 +1,47 @@
+Detected memory leaks!
+Dumping objects ->
+D:\UsefulVisualStudio\Pro\TechShop\TechShop.cpp(60) : {327} client block at 0x0000014ACE775990, subtype c0, 24 bytes long.
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\dumpcont.cpp(23) : atlTraceGeneral - a CObject object at $0000014ACE775990, 24 bytes long
+{326} client block at 0x0000014ACE772FA0, subtype c0, 392 bytes long.
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\dumpcont.cpp(23) : atlTraceGeneral - a CObject object at $0000014ACE772FA0, 392 bytes long
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\strcore.cpp(156) : {320} normal block at 0x0000014ACE76F850, 98 bytes long.
+ Data: <p3 M    $   $   > 70 33 07 4D FC 7F 00 00 24 00 00 00 24 00 00 00 
+{260} client block at 0x0000014ACE756420, subtype c0, 128 bytes long.
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\dumpcont.cpp(23) : atlTraceGeneral - a CDynLinkLibrary object at $0000014ACE756420, 128 bytes long
+{250} normal block at 0x0000014ACE751150, 32 bytes long.
+ Data: <P u J   P v J   > 50 C2 75 CE 4A 01 00 00 50 11 76 CE 4A 01 00 00 
+{242} normal block at 0x0000014ACE75ECF0, 40 bytes long.
+ Data: <  u J     u J   > A0 EB 75 CE 4A 01 00 00 20 E8 75 CE 4A 01 00 00 
+{230} normal block at 0x0000014ACE75E820, 40 bytes long.
+ Data: <  u J     u J   > A0 EB 75 CE 4A 01 00 00 D0 E6 75 CE 4A 01 00 00 
+{215} normal block at 0x0000014ACE75E6D0, 40 bytes long.
+ Data: <  u J     u J   > E0 E9 75 CE 4A 01 00 00 A0 EB 75 CE 4A 01 00 00 
+{203} normal block at 0x0000014ACE75E9E0, 40 bytes long.
+ Data: <  u J     u J   > A0 EB 75 CE 4A 01 00 00 D0 E6 75 CE 4A 01 00 00 
+{163} normal block at 0x0000014ACE75EBA0, 40 bytes long.
+ Data: <  u J     u J   > E0 E9 75 CE 4A 01 00 00 D0 E6 75 CE 4A 01 00 00 
+{162} normal block at 0x0000014ACE75AF30, 16 bytes long.
+ Data: <h u J           > 68 EE 75 CE 4A 01 00 00 00 00 00 00 00 00 00 00 
+{161} normal block at 0x0000014ACE75B2A0, 16 bytes long.
+ Data: <@ u J           > 40 EE 75 CE 4A 01 00 00 00 00 00 00 00 00 00 00 
+{160} normal block at 0x0000014ACE75EE20, 96 bytes long.
+ Data: <@ u J   p u J   > 40 C7 75 CE 4A 01 00 00 70 E5 75 CE 4A 01 00 00 
+{159} normal block at 0x0000014ACE75EAC0, 40 bytes long.
+ Data: <  u J     u J   > C0 EA 75 CE 4A 01 00 00 C0 EA 75 CE 4A 01 00 00 
+{158} normal block at 0x0000014ACE75AE90, 16 bytes long.
+ Data: <  u J           > B8 E5 75 CE 4A 01 00 00 00 00 00 00 00 00 00 00 
+{157} normal block at 0x0000014ACE75B840, 16 bytes long.
+ Data: <  u J           > 90 E5 75 CE 4A 01 00 00 00 00 00 00 00 00 00 00 
+{156} normal block at 0x0000014ACE75E570, 96 bytes long.
+ Data: <@ u J   @ u J   > 40 C7 75 CE 4A 01 00 00 40 C7 75 CE 4A 01 00 00 
+{143} normal block at 0x0000014ACE75C7E0, 72 bytes long.
+ Data: <  u J     u J   > E0 C7 75 CE 4A 01 00 00 E0 C7 75 CE 4A 01 00 00 
+{142} normal block at 0x0000014ACE75B250, 16 bytes long.
+ Data: < W              > F8 57 F8 95 FC 7F 00 00 00 00 00 00 00 00 00 00 
+{141} normal block at 0x0000014ACE75C740, 96 bytes long.
+ Data: <p u J   p u J   > 70 E5 75 CE 4A 01 00 00 70 E5 75 CE 4A 01 00 00 
+{140} normal block at 0x0000014ACE75B9D0, 16 bytes long.
+ Data: < W              > E0 57 F8 95 FC 7F 00 00 00 00 00 00 00 00 00 00 
+{139} normal block at 0x0000014ACE75B930, 16 bytes long.
+ Data: < W              > C0 57 F8 95 FC 7F 00 00 00 00 00 00 00 00 00 00 
+Object dump complete.

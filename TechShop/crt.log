@@ -1,0 +1,45 @@
+Detected memory leaks!
+Dumping objects ->
+D:\UsefulVisualStudio\Pro\TechShop\TechShop.cpp(60) : {340} client block at 0x00000216BD543B20, subtype c0, 24 bytes long.
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\dumpcont.cpp(23) : atlTraceGeneral - a CObject object at $00000216BD543B20, 24 bytes long
+{339} client block at 0x00000216BD51EC20, subtype c0, 392 bytes long.
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\dumpcont.cpp(23) : atlTraceGeneral - a CObject object at $00000216BD51EC20, 392 bytes long
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\strcore.cpp(156) : {333} normal block at 0x00000216BD51CD80, 98 bytes long.
+ Data: <` x     $   $   > 60 C3 78 BC F8 7F 00 00 24 00 00 00 24 00 00 00 
+{260} client block at 0x00000216BD53AC20, subtype c0, 128 bytes long.
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\dumpcont.cpp(23) : atlTraceGeneral - a CDynLinkLibrary object at $00000216BD53AC20, 128 bytes long
+{250} normal block at 0x00000216BD522000, 24 bytes long.
+ Data: < ~R     p R     > C0 7E 52 BD 16 02 00 00 70 7F 52 BD 16 02 00 00 
+{243} normal block at 0x00000216BD5292B0, 40 bytes long.
+ Data: <  R     p R     > D0 91 52 BD 16 02 00 00 70 94 52 BD 16 02 00 00 
+{226} normal block at 0x00000216BD529470, 40 bytes long.
+ Data: <  R       R     > 90 93 52 BD 16 02 00 00 D0 91 52 BD 16 02 00 00 
+{214} normal block at 0x00000216BD529390, 40 bytes long.
+ Data: <  R     p R     > D0 91 52 BD 16 02 00 00 70 94 52 BD 16 02 00 00 
+{176} normal block at 0x00000216BD5291D0, 40 bytes long.
+ Data: <  R     p R     > 90 93 52 BD 16 02 00 00 70 94 52 BD 16 02 00 00 
+{175} normal block at 0x00000216BD526B20, 16 bytes long.
+ Data: <  R             > 08 AE 52 BD 16 02 00 00 00 00 00 00 00 00 00 00 
+{174} normal block at 0x00000216BD526E90, 16 bytes long.
+ Data: <  R             > E0 AD 52 BD 16 02 00 00 00 00 00 00 00 00 00 00 
+{173} normal block at 0x00000216BD52ADC0, 96 bytes long.
+ Data: <  R       R     > 80 86 52 BD 16 02 00 00 20 AD 52 BD 16 02 00 00 
+{172} normal block at 0x00000216BD529400, 40 bytes long.
+ Data: <  R       R     > 00 94 52 BD 16 02 00 00 00 94 52 BD 16 02 00 00 
+{171} normal block at 0x00000216BD527020, 16 bytes long.
+ Data: <h R             > 68 AD 52 BD 16 02 00 00 00 00 00 00 00 00 00 00 
+{170} normal block at 0x00000216BD527840, 16 bytes long.
+ Data: <@ R             > 40 AD 52 BD 16 02 00 00 00 00 00 00 00 00 00 00 
+{169} normal block at 0x00000216BD52AD20, 96 bytes long.
+ Data: <  R       R     > 80 86 52 BD 16 02 00 00 80 86 52 BD 16 02 00 00 
+{156} normal block at 0x00000216BD528720, 72 bytes long.
+ Data: <  R       R     > 20 87 52 BD 16 02 00 00 20 87 52 BD 16 02 00 00 
+{155} normal block at 0x00000216BD526FD0, 16 bytes long.
+ Data: < Wn             > F8 57 6E D1 F8 7F 00 00 00 00 00 00 00 00 00 00 
+{154} normal block at 0x00000216BD528680, 96 bytes long.
+ Data: <  R       R     > 20 AD 52 BD 16 02 00 00 20 AD 52 BD 16 02 00 00 
+{153} normal block at 0x00000216BD526E40, 16 bytes long.
+ Data: < Wn             > E0 57 6E D1 F8 7F 00 00 00 00 00 00 00 00 00 00 
+{152} normal block at 0x00000216BD5277A0, 16 bytes long.
+ Data: < Wn             > C0 57 6E D1 F8 7F 00 00 00 00 00 00 00 00 00 00 
+Object dump complete.
